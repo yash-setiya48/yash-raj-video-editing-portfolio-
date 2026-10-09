@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html data-click-sound="pop" data-cursor="play" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yashraj Setiya | Video Editor</title>
+  <meta name="description" content="Portfolio of Yashraj Setiya - Freelance Video Editor specializing in talking-head videos, brand ads, and testimonial videos.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ðŸŽ¬</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Display & Headings) + Inter (Clean Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-particles" id="bg-particles" aria-hidden="true"></div>
+
+  <!-- =========================================================
+       1. NAVIGATION
+       Home, Work, About, Services, Contact
+  ========================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Yashraj Setiya - Home">
+        <span class="brand-name">YASHRAJ SETIYA</span>
+        <span class="rec-badge"><span class="rec-dot"></span>EDIT</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-nav">Contact Me</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       2. HERO SECTION
+       Clean, modern cinematic typography with Plus Jakarta Sans
+  ========================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      
+      <div class="hero-header">
+        <div class="hero-tag">
+          <span class="pulse-indicator"></span>
+          <span>FREELANCE VIDEO EDITOR 58+ PROJECTS COMPLETED</span>
+        </div>
+        
+        <h1 class="hero-title">
+          <span class="name-line">YASHRAJ SETIYA</span>
+          <span class="role-line">VIDEO EDITOR</span>
+        </h1>
+
+        <!-- Short, Simple, Professional Introduction -->
+        <p class="hero-bio">
+          Freelance video editor crafting clean, engaging visual edits for creators, brands, and businesses. 
+          Focused on pacing, storytelling, and polished post-production.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="#work" class="btn btn-primary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Contact Me
+            <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       2b. STATS BAR
+  ========================================================== -->
+  <section class="section stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">58+</span>
+          <span class="stat-label">Projects Edited</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Unique Clients</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24h</span>
+          <span class="stat-label">Avg. Response Time</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       3. SHOWREEL SECTION
+       Large video player ready for Yashraj's showreel
+  ========================================================== -->
+  
+
+  <!-- =========================================================
+       4. SELECTED WORK / PORTFOLIO
+       Exactly 3 horizontal video cards side-by-side:
+       1. Short-form Social Reel
+       2. Commercial Brand Ad
+       3. SaaS & Documentary Video
+  ========================================================== -->
+  <section class="section portfolio-section" id="work">
+    <div class="container container-wide">
+
+      <div class="section-header text-center">
+        <span class="section-label">PORTFOLIO</span>
+        <h2 class="section-title">SELECTED WORK</h2>
+        <p class="section-desc">
+          A focused showcase of three core editing styles: talking-head videos, brand commercials, and testimonial ads.
+        </p>
+      </div>
+
+      <!-- 3 Videos Side by Side (Vertical 9:16 / 1080x1920) -->
+      <div class="portfolio-grid-three vertical-grid" id="portfolio-grid">
+
+        <!-- Video 1: Talking head video -->
+        <article class="portfolio-card vertical-card" data-video-title="Talking Head Video">
+          <div class="reel-frame-wrap">
+            <div class="reel-camera-notch"></div>
+            <div class="card-media vertical-media">
+              <video class="card-inline-video" muted loop playsinline preload="metadata">
+                <source src="talking-head-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-glow-overlay"></div>
+              <button class="sound-toggle" type="button" aria-label="Unmute video" aria-pressed="false" title="Sound on/off">
+                <svg class="icon-muted" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.6 3 2.7-2.7-1.4-1.4-2.7 2.7-2.7-2.7-1.4 1.4 2.7 2.7-2.7 2.7 1.4 1.4 2.7-2.7 2.7 2.7 1.4-1.4L16.6 12z"/></svg>
+                <svg class="icon-sound" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>
+                <span class="sound-label">Tap for sound</span>
+              </button>
+            </div>
+            <div class="reel-frame-glare"></div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Talking Head Video</h3>
+          </div>
+        </article>
+
+        <!-- Video 2: Commercial Brand Ad -->
+        <article class="portfolio-card vertical-card" data-video-title="Commercial Brand Ad">
+          <div class="reel-frame-wrap">
+            <div class="reel-camera-notch"></div>
+            <div class="card-media vertical-media">
+              <video class="card-inline-video" muted loop playsinline preload="metadata">
+                <source src="commercial-brand-ad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-glow-overlay"></div>
+              <button class="sound-toggle" type="button" aria-label="Unmute video" aria-pressed="false" title="Sound on/off">
+                <svg class="icon-muted" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.6 3 2.7-2.7-1.4-1.4-2.7 2.7-2.7-2.7-1.4 1.4 2.7 2.7-2.7 2.7 1.4 1.4 2.7-2.7 2.7 2.7 1.4-1.4L16.6 12z"/></svg>
+                <svg class="icon-sound" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>
+                <span class="sound-label">Tap for sound</span>
+              </button>
+            </div>
+            <div class="reel-frame-glare"></div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Commercial Brand Ad</h3>
+          </div>
+        </article>
+
+        <!-- Video 3: Testimonial ad -->
+        <article class="portfolio-card vertical-card" data-video-title="Testimonial Ad">
+          <div class="reel-frame-wrap">
+            <div class="reel-camera-notch"></div>
+            <div class="card-media vertical-media">
+              <video class="card-inline-video" muted loop playsinline preload="metadata">
+                <source src="testimonial-ad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="reel-glow-overlay"></div>
+              <button class="sound-toggle" type="button" aria-label="Unmute video" aria-pressed="false" title="Sound on/off">
+                <svg class="icon-muted" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.6 3 2.7-2.7-1.4-1.4-2.7 2.7-2.7-2.7-1.4 1.4 2.7 2.7-2.7 2.7 1.4 1.4 2.7-2.7 2.7 2.7 1.4-1.4L16.6 12z"/></svg>
+                <svg class="icon-sound" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>
+                <span class="sound-label">Tap for sound</span>
+              </button>
+            </div>
+            <div class="reel-frame-glare"></div>
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Testimonial Ad</h3>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       5. ABOUT ME SECTION
+       Short, clean, personal + Personal intro video placeholder
+  ========================================================== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      
+      <div class="about-grid">
+        <div class="about-intro">
+          <span class="section-label">ABOUT ME</span>
+          <h2 class="section-title">YASHRAJ SETIYA</h2>
+          
+          <p class="about-lead">
+            I'm Yashraj Setiya, a freelance video editor working with creators, brands, and businesses. I focus on creating clean, engaging edits for short-form content, ads, and long-form videos.
+          </p>
+
+          <div class="about-action">
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+              <svg class="btn-icon-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="about-key-points">
+          <div class="about-point">
+            <span class="point-badge">58+</span>
+            <div class="point-text">
+              <strong>Completed Freelance Projects</strong>
+              <span>Delivered for remote creators, agencies, and brand channels</span>
+            </div>
+          </div>
+
+          <div class="about-point">
+            <span class="point-icon-badge">Pr / Ae / Pod</span>
+            <div class="point-text">
+              <strong>Primary Software Suite</strong>
+              <span>Adobe Premiere Pro, After Effects & Adobe Podcast</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       6. SERVICES SECTION
+       Only the 6 specified services, 1-2 concise sentences each
+  ========================================================== -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      
+      <div class="section-header text-center">
+        <span class="section-label">SERVICES</span>
+        <h2 class="section-title">WHAT I OFFER</h2>
+        <p class="section-desc">
+          Professional post-production services focused on clean pacing and storytelling.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- Service 1: Short-form Video Editing -->
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3 class="service-title">Short-form Video Editing</h3>
+          <p class="service-desc">
+            Fast-paced edits structured for social channels, focused on clear pacing and rhythm.
+          </p>
+        </div>
+
+        <!-- Service 2: Talking-head Editing -->
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h3 class="service-title">Talking-head Editing</h3>
+          <p class="service-desc">
+            Seamless jump cuts, multi-camera switching, contextual b-roll inserts, and audio cleanup for creators.
+          </p>
+        </div>
+
+        <!-- Service 3: Reels & Shorts -->
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3 class="service-title">Reels & Shorts</h3>
+          <p class="service-desc">
+            Formatted 9:16 vertical videos with animated subtitles and graphic highlights for Instagram, TikTok, and YouTube Shorts.
+          </p>
+        </div>
+
+        <!-- Service 4: Ads & Promotional Videos -->
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3 class="service-title">Ads & Promotional Videos</h3>
+          <p class="service-desc">
+            Polished commercial edits designed to clearly communicate product benefits and brand identity.
+          </p>
+        </div>
+
+        <!-- Service 5: Long-form Video Editing -->
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <h3 class="service-title">Long-form Video Editing</h3>
+          <p class="service-desc">
+            Structured long-form edits for documentaries, YouTube episodes, and podcasts with narrative continuity.
+          </p>
+        </div>
+
+        <!-- Service 6: Long-to-Short Clips -->
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <h3 class="service-title">Long-to-Short Clips</h3>
+          <p class="service-desc">
+            Repurposing webinars, long recordings, and podcast episodes into focused, bite-sized vertical clips.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Natural Spacing & Clean Divider Between Services and Process -->
+      <div class="process-sub-section">
+        <div class="section-divider"></div>
+
+        <div class="section-header text-center" id="process">
+          <span class="section-label">HOW IT WORKS</span>
+          <h2 class="section-title">THE PROCESS</h2>
+          <p class="section-desc">A simple, transparent workflow from first message to final export.</p>
+        </div>
+
+      <div class="process-grid">
+
+        <div class="process-step">
+          <div class="process-num">01</div>
+          <h3 class="process-title">Brief</h3>
+          <p class="process-desc">Share your raw footage, references, and goals for the video.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">02</div>
+          <h3 class="process-title">Edit</h3>
+          <p class="process-desc">First cut delivered with pacing, structure, and story locked in.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">03</div>
+          <h3 class="process-title">Revise</h3>
+          <p class="process-desc">Feedback rounds to refine pacing, color, audio, and graphics.</p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-num">04</div>
+          <h3 class="process-title">Deliver</h3>
+          <p class="process-desc">Final export in your required format, ready to publish.</p>
+        </div>
+
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       6b. PRICING SECTION
+  ========================================================== -->
+  <section class="section pricing-section" id="pricing">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <span class="section-label">PACKAGES</span>
+        <h2 class="section-title">PRICING</h2>
+        <p class="section-desc">Straightforward packages. Custom quotes available for larger projects.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <h3 class="pricing-name">Basic</h3>
+          <div class="pricing-price">$30<span>/video</span></div>
+          <ul class="pricing-features">
+            <li>Up to 3 min final length</li>
+            <li>Basic cuts &amp; pacing</li>
+            <li>1 revision round</li>
+            <li>48h delivery</li>
+          </ul>
+        </div>
+
+        <div class="pricing-card featured">
+          <span class="pricing-badge">Most Popular</span>
+          <h3 class="pricing-name">Standard</h3>
+          <div class="pricing-price">$80<span>/video</span></div>
+          <ul class="pricing-features">
+            <li>Up to 10 min final length</li>
+            <li>Color correction &amp; captions</li>
+            <li>2 revision rounds</li>
+            <li>B-roll &amp; sound design</li>
+            <li>72h delivery</li>
+          </ul>
+        </div>
+
+        <div class="pricing-card">
+          <h3 class="pricing-name">Premium</h3>
+          <div class="pricing-price">$150<span>/video</span></div>
+          <ul class="pricing-features">
+            <li>Long-form or multi-part</li>
+            <li>Motion graphics &amp; animation</li>
+            <li>Unlimited revisions</li>
+            <li>Priority turnaround</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       7. SKILLS & SOFTWARE SECTION
+       Compact, clean, and strictly accurate
+  ========================================================== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <h3 class="block-subtitle marquee-heading">SOFTWARE</h3>
+    </div>
+
+    <div class="marquee-outer">
+      <div class="marquee-track">
+
+        <div class="software-item">
+          <div class="software-icon pr-icon"><span>Pr</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe Premiere Pro</span>
+            <span class="software-role">Timeline Assembly, Pacing, Multi-Cam & Audio Sync</span>
+          </div>
+        </div>
+
+        <div class="software-item">
+          <div class="software-icon ae-icon"><span>Ae</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe After Effects</span>
+            <span class="software-role">Motion Graphics, Text Animation & Visual Effects</span>
+          </div>
+        </div>
+
+        <div class="software-item">
+          <div class="software-icon pod-icon"><span>Pod</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe Podcast</span>
+            <span class="software-role">Voice Enhancement, Noise Removal & Speech Clarity</span>
+          </div>
+        </div>
+
+        <!-- duplicate set for seamless infinite loop -->
+        <div class="software-item" aria-hidden="true">
+          <div class="software-icon pr-icon"><span>Pr</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe Premiere Pro</span>
+            <span class="software-role">Timeline Assembly, Pacing, Multi-Cam & Audio Sync</span>
+          </div>
+        </div>
+
+        <div class="software-item" aria-hidden="true">
+          <div class="software-icon ae-icon"><span>Ae</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe After Effects</span>
+            <span class="software-role">Motion Graphics, Text Animation & Visual Effects</span>
+          </div>
+        </div>
+
+        <div class="software-item" aria-hidden="true">
+          <div class="software-icon pod-icon"><span>Pod</span></div>
+          <div class="software-meta">
+            <span class="software-name">Adobe Podcast</span>
+            <span class="software-role">Voice Enhancement, Noise Removal & Speech Clarity</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       8. EXPERIENCE SECTION
+       Factual, concise track record
+  ========================================================== -->
+  
+
+  <!-- =========================================================
+       9. CONTACT SECTION
+      Clean final CTA with Email, Instagram, and WhatsApp
+  ========================================================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      
+      <div class="contact-box">
+        <div class="contact-header text-center">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 class="section-title">LET'S WORK TOGETHER</h2>
+          <p class="contact-sub">Have a project in mind? Let's talk.</p>
+        </div>
+
+        <!-- Main Action Button -->
+        <div class="contact-primary-cta">
+          <a href="mailto:yashsetiya48@gmail.com" class="btn btn-primary btn-large">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Contact Me
+          </a>
+        </div>
+
+        <!-- Direct Channels Grid -->
+        <div class="contact-channels-grid">
+          
+          <!-- EMAIL -->
+          <div class="channel-card">
+            <div class="channel-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="channel-info">
+              <span class="channel-label">Email</span>
+              <span class="channel-value" id="email-address">yashsetiya48@gmail.com</span>
+            </div>
+            <div class="channel-actions">
+              <a href="mailto:yashsetiya48@gmail.com" class="channel-link" target="_blank" rel="noopener">Send Mail</a>
+              <button class="channel-copy-btn" id="copy-email-btn" aria-label="Copy email address" title="Copy Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- INSTAGRAM -->
+          <a href="https://www.instagram.com/yashsetiyaedits/" class="channel-card hover-glow" target="_blank" rel="noopener">
+            <div class="channel-icon icon-instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="channel-info">
+              <span class="channel-label">Instagram</span>
+              <span class="channel-value">@yashsetiyaedits</span>
+            </div>
+            <span class="channel-arrow">&rarr;</span>
+          </a>
+
+          <!-- Replace 000000000000 with your WhatsApp number, including country code -->
+          <a href="https://wa.me/923101106001" class="channel-card hover-glow" target="_blank" rel="noopener" aria-label="Message Yashraj on WhatsApp">
+            <div class="channel-icon icon-whatsapp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20.5 11.5a8.5 8.5 0 0 1-12.4 7.6L3 20l.9-4.9a8.5 8.5 0 1 1 16.6-3.6Z"/>
+                <path d="M8.5 8.5c.4 2.7 2.3 4.6 5 5l1.1-1.1 2 .8c-.1 1-.9 1.7-1.9 1.7-3.8-.3-6.9-3.4-7.2-7.2 0-1 .7-1.8 1.7-1.9l.8 2-1.5.7Z"/>
+              </svg>
+            </div>
+            <div class="channel-info">
+              <span class="channel-label">WhatsApp</span>
+              <span class="channel-value">Chat with me</span>
+            </div>
+            <span class="channel-arrow">&rarr;</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       8b. FAQ SECTION
+  ========================================================== -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <span class="section-label">QUESTIONS</span>
+        <h2 class="section-title">FAQ</h2>
+      </div>
+
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>What's the typical turnaround time?</summary>
+          <p>Most short-form edits are delivered in 48–72 hours. Long-form or complex projects take longer and are quoted upfront.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How many revisions are included?</summary>
+          <p>Depends on the package — Basic includes 1 round, Standard includes 2, and Premium includes unlimited revisions.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What file formats do you deliver?</summary>
+          <p>MP4 by default, exported in whatever resolution and aspect ratio your platform needs (16:9, 9:16, 1:1).</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I send my raw footage?</summary>
+          <p>Google Drive, Dropbox, or WeTransfer links work fine — I'll share an upload link once we lock in the project.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How does payment work?</summary>
+          <p>50% upfront to start, remaining 50% on final delivery. Bigger projects can be split into milestones.</p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       10. FOOTER
+  ========================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand">YASHRAJ SETIYA</span>
+        <span class="footer-tagline">Video Editor</span>
+      </div>
+      <div class="footer-center">
+        <p class="footer-copy">&copy; <span id="current-year">2026</span> Yashraj Setiya. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       11. VIDEO MODAL PLAYER
+  ========================================================== -->
+  <div class="video-modal" id="video-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <span class="modal-title" id="modal-title">Video Preview</span>
+        <button class="modal-close" id="modal-close-btn" aria-label="Close video">&times;</button>
+      </div>
+      <div class="modal-video-wrapper" id="modal-video-wrapper">
+        <!-- Injected via script.js -->
+      </div>
+      <div class="modal-footer-caption">
+        <span>Press <kbd>ESC</kbd> or click outside to close</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for "Email Copied" -->
+  <div class="toast-notice" id="toast-notice">Email address copied to clipboard!</div>
+
+    <!-- Light cinematic cursor -->
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"><i class="r-line"></i><i class="r-tri"></i></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
